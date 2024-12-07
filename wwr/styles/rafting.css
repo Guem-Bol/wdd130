@@ -1,40 +1,36 @@
 
 
 body{
-    max-width: 960px;
+    width:  100%;
     padding: 20px;
     list-style: none;
+    height: auto;
+    background-color: lightgreen;
 }
 
 h1{
     position: absolute;
-    top: 30%;
+    top:  30%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    right: 45%;
 }
 
 article{
 
     position: absolute;
-    top: 60%;
+    top: 80%;
     
 }
 
 
-article img {
 
-    
-    position: absolute;
-    top: 65px; 
-      
-    
-    
-}
 
 .hero img{
      
     width: 100%;
     display: block;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     
     
@@ -49,28 +45,104 @@ article img {
 
 h2{ 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
 }
 
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    
 }
 
 a{
     text-decoration: none;
-}
-
-section img{
-
-    position: relative;
+    display: flex;
+    justify-items: flex-end;
 }
 
 header{
     padding: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
 }
 
 
 .socialmedia img{
     width: 10%;
+    
+}
+
+
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-family: sans-serif;
+    font-size: large;
+
+    
+
+}
+
+header img{
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    
+}
+
+figcaption{
+
+    color: black;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+section {
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+article img{
+
+    width: 25%;
+    display: flex;
+    align-self: flex-end;
+    display: flex;
+    left: 45%;
+    
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav a {
+    display: flex;
+   justify-items: flex-end;
+}
+
+.social-media{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: left;
+    
 }
