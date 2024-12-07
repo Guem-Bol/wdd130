@@ -1,0 +1,213 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+
+:root {
+    --main-bg-color: lightgreen;
+    --primary-color : #1f221f;
+    --secondary-color: lightgreen;
+    --accent1: lightgreen;
+    --accent2:lightgreen;
+
+    --heading-font:'roboto';
+    --paragraph-font: 'raleway';
+
+
+    
+    --nav-background-color: lightgreen;
+    --nav-link-color:#0000;
+    --nav-hover-link-color:lightgreen;
+    --nav-hover-background-color: lightgreen;
+  }
+
+  body {
+
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    list-style: none;
+   
+  }
+  
+
+  h1, h2 {
+
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+
+  header{
+
+    padding: 20px;
+    background-color: var(--accent1);
+    margin: 0%;
+    padding: 0%;
+    grid-template-columns: 120px 1fr 2fr;
+  }
+
+  p {
+    padding: 25px;
+    padding-bottom: 20px;
+    
+  }
+
+  nav{
+    background-color: var(--nav-background-color);
+    font-size: 2rem;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+  }
+
+.hero img{
+
+    display:block;
+    width: 40%;
+    height: auto;
+   
+    
+}
+
+section{
+
+   
+    font-size: 160%;
+    
+}
+
+h2{
+
+    padding-left: 40%;
+    padding-top: 75px;
+    
+}
+
+
+
+
+
+.sociallinks img{
+
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    justify-items: flex-end;
+    
+}
+
+
+.hero h1{
+
+    padding-left: 28%;
+
+    padding-top: 20px;
+
+    padding-bottom: 0%;
+    
+
+}
+
+
+
+.in a {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+
+    margin-right: 10%;
+
+    padding-right: 5%;
+
+    flex: 1 1 100%;
+}
+
+.on img{
+
+    float: left;
+
+    padding-top: 8%;
+
+
+
+    
+}
+
+
+.on p{
+
+    padding: 0%;
+    padding-top: 87px;
+    font-size: 27px;
+}
+
+
+.in {
+	display: flex;
+	list-style: none;
+}
+
+.in a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+figcaption{
+
+  background-color: #d5c4c4;
+  color: black;
+  font: italic;
+  padding: 7px;
+  text-align: center;
+  font-size: 120%;
+}
+
+
+figure{
+
+  border: thin white;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+.topic{
+
+  font-size: 45px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
