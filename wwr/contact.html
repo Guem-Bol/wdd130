@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name ="description" content="#">
+    <title>Contact us page</title>
+    <meta name ="description" content="contact us page">
     <meta name="author" content="Madut">
+    <meta name="purpose" content="Payeeo company">
     <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
     <header>
-        <img src="images/brownrafting.jpeg" alt="people rafting">
-        <nav class="topic">
-            <a>contact us</a>
-        </nav>
+        <img src="images/brownrafting.jpeg" alt="rafting_logo">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="trips.html">Trips</a>
+          <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
 
       
         
@@ -50,33 +55,49 @@
                     <figcaption>madutbol0@gmail.com</figcaption>
 
                 </section>
+                    <figure>
+                    <img src="images/pexels-photo-926390.jpeg" alt="working" style="width:100%">
+                    <figcaption>Working to provide good customer service.</figcaption>
+                  </figure>
 
+                  <figure>
+                    <img src="images/serene-worker-happy-employee-studio-romantic-shutterstock-100930716-orig.webp" alt="meditate" style="width:100%">
+                    <figcaption>Ensuring our values meet your expectations.</figcaption>
+                  </figure>
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19665.482904479268!2d31.239903971710834!3d29.98337187409313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1685880152788!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    
-                <img src="images/Untitled-design-27-1-1280x720-3-1024x576-1024x576.jpeg" alt="3employess">
+                  <figure>
+                    <img src="images/636356d01893a6045ff6e23d_happy-employees.jpg" alt="happy-employee" style="width:100%">
+                    <figcaption>Understanding your needs.</figcaption>
+                  </figure>
 
 
                 <div class="container">
                     <form action="action_page.php">
                   
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="name">User-Name</label>
+                      <input type="text" id="user-name" name="user-name" placeholder="Your name..">
                   
-                      <label for="lname">E-mail Address</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your E-mail address..">
+                      <label for="email-address">E-mail Address</label>
+                      <input type="text" id="email-address" name="email-address" placeholder="Your E-mail address..">
+
+                      
+                      <h1>The purpose of the message:</h1>
+                      <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">General Inquiry</label><br>
+                      <input type="radio" id="css" name="fav_language" value="CSS">
+                      <label for="css">Reservation Question</label><br>
+                      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                      <label for="javascript">Website Suggestion</label>
                       
                   
-                    
-                  
-                      <label for="subject">Subject</label>
-                      <textarea id="subject" name="subject" placeholder="Write something..General Inquiry.. Reservation Question.. Website Suggestion.." style="height:200px"></textarea>
+                      <label for="subject">General Inquiry</label>
+                      <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
 
                       <input type="checkbox" id="subscribe" name="source" value="subscribe">
                      
                       <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                        
-                      <input type="submit" value="Submit">
+                      <input type="submit" value="Submit The Form">
                   
                     </form>
                   </div>
@@ -84,6 +105,8 @@
 
                 
             </div>
+
+        </main>
             <footer>
 
                 <p>©2024 ✨Payeeo✨ Madut Bol</p>
@@ -106,7 +129,7 @@
 
 
             </footer>
-        </main>
+        
     </header>
 </body>
 </html>
