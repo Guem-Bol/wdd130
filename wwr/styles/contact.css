@@ -21,10 +21,11 @@
 
   body {
 
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-    list-style: none;
+    max-width: 1600px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
    
   }
   
@@ -96,6 +97,7 @@ h2{
     width: 35%;
     display: flex;
     justify-self: flex-end;
+    
     
 }
 

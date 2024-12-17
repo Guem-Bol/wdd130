@@ -124,7 +124,6 @@ article img{
     width: 25%;
     display: flex;
     align-self: flex-end;
-    display: flex;
     left: 45%;
     
 }
@@ -143,6 +142,19 @@ nav a {
 .social-media{
     display: flex;
     justify-content: flex-end;
-    justify-items: left;
+    float: right;
+    width: 34%;
+    
     
 }
+
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 85%;
+    height: auto;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
